@@ -1,2 +1,57 @@
+$navbar-default-bg: #800080;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url("purple-wallpaper-josh001.jpg");
+  background-size: cover;
+  height: 550px;
+  Width: 1140px;
+}
+
+.jumbotron h1 {
+  color: #FFFFFF;
+  margin-top: 100px;
+  margin-bottom: 160px;
+  letter-spacing: -4px;
+  font-weight: bold;
+}
+
+.btn-other {
+  background-color: #800080;
+  border-color: #FFFFFF;
+}
+
+footer {
+  border: 3px solid #800080;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
